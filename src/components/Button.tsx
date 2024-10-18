@@ -6,10 +6,11 @@ type ButtonProps = {
   onClick: () => void;
 };
 
-export const Button: React.FC<ButtonProps> = ({ label, onClick }) => {
+const Button: React.FC<ButtonProps> = ({ label, onClick }) => {
   return (
     <button className="bg-red-300 text-red-900" onClick={onClick}>
       {label}
     </button>
   );
 };
+export default Button;
