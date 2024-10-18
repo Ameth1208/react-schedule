@@ -1,6 +1,6 @@
 {
   "name": "@gamastudio/react-schedule",
-  "version": "0.0.2a",
+  "version": "0.0.2af",
   "type": "module",
   "main": "./dist/index.umd.js",
   "module": "./dist/index.es.js",
